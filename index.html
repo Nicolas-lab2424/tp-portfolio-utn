@@ -4,28 +4,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <!-- Fuentes -->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Exile&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
-  <!-- link bootsstrap -->
+  <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
-  <!-- custom css -->
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>Document</title>
 </head>
 
-<body>
-  <!-- Barra de navegacion -->
-  <header class="barra-nav">
-    <div class="contenedor">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body id="space">
+  <header class="header">
+    <nav class=" barra bg-nav navbar navbar-expand-lg ">
+      <div>
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Papa</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,23 +24,19 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link " href="#">Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
+                <a class="nav-link" href="#sobremi">Sobre mi</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Pricing</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-              </li>
             </ul>
           </div>
         </div>
-      </nav>
-
-    </div>
+      </div>
+    </nav>
   </header>
   <main>
     <div id="inicio">
@@ -57,30 +44,29 @@
       <h2>Programador trainee</h2>
       <p>Estudio en la utn desarrollo web Frontend</p>
     </div>
-
-    <section id="sobremi">
-      <div class="card-content">
-        <img src="" alt="Foto de Nicolas">
-        <p>Me llamo Nicolas, tengo 17 años y empeze en el mundo de la programación a los 16 pero me adentre mas un año
-          más
-          tarde, mirando videos, empezando este curso e informandome por mi cuenta</p>
-      </div>
+    <div class="carta">
+      <section id="sobremi">
+        <div class="card-content">
+          <img src="" alt="Foto de Nicolas">
+          <p>Me llamo Nicolas, tengo 17 años y empeze en el mundo de la programación a los 16 pero me adentre mas un año
+            más
+            tarde, mirando videos, empezando este curso e informandome por mi cuenta</p>
+        </div>
+    </div>
     </section>
-
     <div id="habilidades">
       <section class="Frontend">
         <h1>Frontend</h1>
-
       </section>
       <section class="Herramientas">
         <h1>Herramientas</h1>
-
       </section>
     </div>
   </main>
   <footer>
     <div id="contacto"></div>
   </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>

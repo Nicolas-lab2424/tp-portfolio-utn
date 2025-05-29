@@ -7,16 +7,37 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(26, 25, 25);
+}
+
+
+/* Navbar Bootstrap */
+.barra {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(56, 55, 55);
+}
+
+.header .bg-nav {
+  background-color: rgb(56, 55, 55);
   display: flex;
+  justify-content: end;
+  align-items: end;
 }
 
+.container-fluid {
+  background-color: rgb(56, 55, 55);
 
-/* Nav */
-.bg-body-tertiary {
-  background-color: aqua;
+
 }
 
+.nav-link {
+  color: rgb(255, 255, 255);
 
+}
+
+/* main */
 #inicio {
   height: 80vh;
   background-color: rgb(26, 25, 25);
@@ -27,6 +48,9 @@ body {
 
   font-size: x-large;
 }
+
+
+
 
 #inicio h2 {
   font-size: larger;
@@ -42,9 +66,9 @@ body {
 
 #sobremi {
   background-color: azure;
-  width: 500px;
+  max-width: 500px;
   justify-content: center;
-  display: flex;
-  text-align: center;
-  margin-left: 200px;
+
+
+  margin-left: 20px;
 }
