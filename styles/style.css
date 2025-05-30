@@ -7,7 +7,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(19, 18, 18);
+  background-color: rgb(1, 14, 32);
 }
 
 
@@ -18,21 +18,22 @@ body {
   width: 100%;
   z-index: 1000;
   background-color: rgb(19, 18, 18);
-
+  border-bottom: 1px solid rgb(27, 121, 184);
 }
 
 .header .bg-nav {
-  background-color: rgb(19, 18, 18);
+  background-color: rgb(1, 14, 32);
   display: flex;
   justify-content: end;
   align-items: end;
 }
 
 .container-fluid {
-  background-color: rgb(19, 18, 18);
+  background-color: rgb(1, 14, 32);
 
 
 }
+
 
 .links {
   color: rgb(255, 255, 255);
@@ -45,13 +46,16 @@ body {
 
 }
 
+
+
 /* main */
 #inicio {
   height: 80vh;
-  background-color: rgb(19, 18, 18);
+  background-color: rgb(1, 14, 32);
   color: whitesmoke;
   margin-top: 40vh;
   margin-left: 50px;
+
   font-family: "Nunito", sans-serif;
   padding: 25px;
   font-size: x-large;
@@ -76,11 +80,26 @@ body {
 
 #sobremi {
   margin-left: 70px;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 
 }
 
 #sobremi h2 {
+  margin-bottom: 25px;
+  color: rgb(27, 121, 184);
+}
+
+#habilidades {
+  margin-left: 70px;
+
+}
+
+
+.frontend {
+  margin-bottom: 500px
+}
+
+.frontend h2 {
   margin-bottom: 25px;
   color: rgb(27, 121, 184);
 }
@@ -92,6 +111,20 @@ body {
 
 
 .frontend img {
-  background-color: black;
+  background-color: rgb(1, 14, 32);
   width: 50px;
+  justify-content: center;
+}
+
+.Name-icon {
+  display: flex;
+
+}
+
+#html {
+  margin: 0 15px;
+}
+
+#css {
+  margin: 0 40px;
 }
