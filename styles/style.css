@@ -18,6 +18,7 @@ body {
   width: 100%;
   z-index: 1000;
   background-color: rgb(19, 18, 18);
+
 }
 
 .header .bg-nav {
@@ -33,13 +34,13 @@ body {
 
 }
 
-.nav-link {
+.links {
   color: rgb(255, 255, 255);
 
 
 }
 
-.nav-link:hover {
+.links:hover {
   color: rgb(27, 121, 184);
 
 }
@@ -73,20 +74,22 @@ body {
 
 }
 
-#carta {
-  background-color: black;
-  display: flex;
-  justify-content: center;
-
-  margin-bottom: 50vh;
-}
-
 #sobremi {
-  background-color: azure;
-  max-width: 500px;
-  text-align: center;
-  margin-left: 20px;
+  margin-left: 70px;
+  margin-bottom: 300px;
+
 }
+
+#sobremi h2 {
+  margin-bottom: 25px;
+  color: rgb(27, 121, 184);
+}
+
+.parrafo {
+  max-width: 700px;
+  color: whitesmoke;
+}
+
 
 .frontend img {
   background-color: black;
