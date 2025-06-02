@@ -19,6 +19,7 @@ body {
   z-index: 1000;
   background-color: rgb(19, 18, 18);
   border-bottom: 1px solid rgb(27, 121, 184);
+
 }
 
 .header .bg-nav {
@@ -61,9 +62,14 @@ body {
 
 }
 
+#Titulo-principal {
+  animation: desplazamiento 1s forwards;
+}
+
 
 #inicio h2 {
   font-size: larger;
+
 
 }
 
@@ -184,4 +190,14 @@ input::placeholder {
   color: whitesmoke;
 }
 
-/* animaciones y  */
+/* animaciones */
+
+@keyframes desplazamiento {
+  from {
+    transform: translateX(-100%)
+  }
+
+  to {
+    transform: translateX(0)
+  }
+}
